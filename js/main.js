@@ -6,7 +6,8 @@ console.log("Vue ok", Vue);
 const app = Vue.createApp({
     data() {
         return {
-            message: "Ciao! Sto imparando ad usare Vue.js"
+            message: "Ciao! Sto imparando ad usare Vue.js",
+            pic: "./img/fiore.jpg"
         }
     }
 });
